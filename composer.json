@@ -1,0 +1,22 @@
+{
+    "name": "herroffizier/yii2-columnized",
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "keywords": ["yii", "yii2", "yii 2", "widget", "column"],
+    "description": "Yii2 widget for representing data provider models in column format.",
+    "require": {
+        "php": ">=5.4",
+        "yiisoft/yii2": "*"
+    },
+    "require-dev": {
+        "yiisoft/yii2-codeception": "*",
+        "codeception/codeception": "*",
+        "phpunit/phpunit": "~4",
+        "codeception/specify": "*",
+        "squizlabs/php_codesniffer": "*",
+        "phing/phing": "*"
+    },
+    "autoload": {
+        "psr-4": {"herroffizier\\yii2columnized\\tests\\": "tests/", "herroffizier\\yii2columnized\\": "src/"}
+    }
+}
