@@ -12,7 +12,6 @@
         "yiisoft/yii2-codeception": "*",
         "codeception/codeception": "*",
         "phpunit/phpunit": "~4",
-        "codeception/specify": "*",
         "squizlabs/php_codesniffer": "*",
         "phing/phing": "*"
     },
