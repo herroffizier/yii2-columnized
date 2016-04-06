@@ -216,7 +216,10 @@ class ColumnWidgetTest extends TestCase
             if ($index + 1 < $columnCount) {
                 $this->assertContains('column '.$index.' has 1 items', $result);
             } else {
-                $this->assertContains('column '.$index.' has '.($dataProvider->getTotalCount() - $columnCount + 1).' items', $result);
+                $this->assertContains(
+                    'column '.$index.' has '.($dataProvider->getTotalCount() - $columnCount + 1).' items',
+                    $result
+                );
             }
         }
     }
